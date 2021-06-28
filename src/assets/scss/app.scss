@@ -1,0 +1,21 @@
+
+
+//Import Fontawesome.scss
+
+@import "/node_modules/font-awesome/scss/font-awesome.scss";
+
+//import Color 
+@import 'color.scss';
+// Import Nav Bar SCSS
+
+@import "theme/navbar";
+
+//Imprt Side Bar 
+@import "theme/sidebar";
+
+//import Front 
+@import "theme/fontsection";
+
+//import service
+
+@import "theme/service"

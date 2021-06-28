@@ -1,0 +1,152 @@
+.nav-main {
+ height: 70px;
+ margin-top: -70px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1rem;
+ position: sticky;
+ top: 0;
+ z-index: 10;
+ transition: 0.8s all ease;
+ background:  rgba(255, 255, 255, 0.973);
+ 
+
+ @media screen and (max-width: 960px) {
+   transition: 0.8s all ease;
+ }
+
+ .nav-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 70px;
+
+  z-index: 1;
+  width: 100%;
+  padding: 0 2px;
+  max-width: 1200px;
+
+ .nav-logo {
+
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  // margin-left: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 12s all ease;
+  // width: 100px;
+.link{
+ width: 100%;
+ height: 100%;
+}
+  .nav-logo-image {
+   object-fit: cover;
+   background-position: center;
+   max-width: 100%;
+   height: 100%;
+  }
+ }
+
+ .mobile-icon {
+  display: none;
+
+  @media screen and (max-width: 760px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: $primary;
+   
+  }
+ }
+ .nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+
+  // margin-right: -22px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+  .nav-item {
+   height: 70px;
+   .nav-links {
+
+    color: rgb(49, 48, 48);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 1.5rem 1rem 0;
+    margin-bottom: 0.75rem;
+    height: 100%;
+    cursor: pointer;
+
+    &:hover{
+     color: $primary;
+    }
+  
+    &.active {
+      border-bottom: 3px solid #01bf71;
+      color: $primary;
+    }
+   }
+  }
+ }
+ .nav-button-container {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  @media screen and (max-width: 768px) {
+   display: none;
+ }
+
+  .btn-nav-phone {
+   position: relative;
+    padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    border: 0.1rem solid rgba(gray, 0.6);
+    background-color: $white;
+    display: block;
+    border-radius: 50rem;
+    span {
+     position: absolute;
+     background-color: $primary;
+     width: 2.5rem;
+     height: 2.5rem;
+     top: 50%;
+     right: 5px;
+     transform: translateY(-50%);
+     border-radius: 50%;
+  
+     i {
+         color: $white;
+         font-size: 1rem;
+         line-height: 2.5rem;
+     }
+  
+  }
+  
+  &:hover {
+    
+     color: $white;
+     background-color: $primary;
+  
+     span {
+         background-color: rgba($black, 0.6);
+     }
+  }
+  }
+ }
+}
+}
