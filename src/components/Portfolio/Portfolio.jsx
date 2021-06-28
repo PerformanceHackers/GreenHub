@@ -1,62 +1,62 @@
 import React, { useEffect, useState } from 'react'
 
-function Portfolio() {
- const list = [
-  {
-  id:1,
-  imageUrl:1,
-  Name:"Name of Project",
-  cat:"kitchen"
- },
-  {
-  id:2,
-  imageUrl:2,
-  Name:"Name of Project",
-  cat:"livingRoom"
- },
-  {
-  id:3,
-  imageUrl:3,
-  Name:"Name of Project",
-  cat:"kitchen"
- },
-  {
-  id:4,
-  imageUrl:4,
-  Name:"Name of Project",
-  cat:"room"
- },
-  {
-  id:5,
-  imageUrl:5,
-  Name:"Name of Project",
-  cat:"room"
- },
-  {
-  id:6,
-  imageUrl:6,
-  Name:"Name of Project",
-  cat:"kitchen"
- },
-  {
-  id:7,
-  imageUrl:7,
-  Name:"Name of Project",
-  cat:"livingRoom"
- },
-  {
-  id:8,
-  imageUrl:8,
-  Name:"Name of Project",
-  cat:"room"
- },
-  {
-  id:9,
-  imageUrl:9,
-  Name:"Name of Project",
-  cat:"livingRoom"
- },
+const list = [
+ {
+ id:1,
+ imageUrl:1,
+ Name:"Name of Project",
+ cat:"kitchen"
+},
+ {
+ id:2,
+ imageUrl:2,
+ Name:"Name of Project",
+ cat:"livingRoom"
+},
+ {
+ id:3,
+ imageUrl:3,
+ Name:"Name of Project",
+ cat:"kitchen"
+},
+ {
+ id:4,
+ imageUrl:4,
+ Name:"Name of Project",
+ cat:"room"
+},
+ {
+ id:5,
+ imageUrl:5,
+ Name:"Name of Project",
+ cat:"room"
+},
+ {
+ id:6,
+ imageUrl:6,
+ Name:"Name of Project",
+ cat:"kitchen"
+},
+ {
+ id:7,
+ imageUrl:7,
+ Name:"Name of Project",
+ cat:"livingRoom"
+},
+ {
+ id:8,
+ imageUrl:8,
+ Name:"Name of Project",
+ cat:"room"
+},
+ {
+ id:9,
+ imageUrl:9,
+ Name:"Name of Project",
+ cat:"livingRoom"
+},
 ]
+function Portfolio() {
 
 const [currentState , setCurrentState] = useState("all")
 const [displayList , setDisplayList] = useState([])
@@ -74,7 +74,7 @@ useEffect(() => {
  }else {
   setDisplayList(i => list.filter(x => x.cat === currentState))
  }
-},[currentState])
+},[currentState ])
  return (
   <section id="portfolio" className="portfolio">
   <div className="container">
@@ -101,7 +101,7 @@ useEffect(() => {
       displayList.length >0 && displayList.map((i) => {
        return <div key={i.id} className="col-lg-4 col-md-6">
        <div className="portfolio-box shadow">
-         <img src={require(`../../assets/images/portfolio/portfolio-${i.imageUrl}.jpg`).default} alt={`portfolio ${i.imageUrl} image`} title="portfolio 1 picture" className="img-fluid"/>
+         <img src={require(`../../assets/images/portfolio/portfolio-${i.imageUrl}.jpg`).default} alt={`portfolio ${i.imageUrl} `} title="portfolio 1 picture" className="img-fluid"/>
          <div className="portfolio-info">
            <div className="caption">
              <h4>{i.Name}</h4>

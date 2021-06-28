@@ -35,7 +35,7 @@ const carouselListI = [
 
 function FrontSection() {
   const [[index, dir], setIndex] = useState([0, 0]);
-  const [carouselList, setCarouselList] = useState([...carouselListI]);
+  const [carouselList, setCarouselList] = useState([]);
 
   const transitions = useTransition(index, {
     keys: index,
@@ -87,17 +87,21 @@ function FrontSection() {
    setIndex([(index - 1 + carouselList.length) % carouselList.length, -1]);
   }
   }
+  useEffect(() => {
+setCarouselList([...carouselListI])
+  },[])
 
 
-  // useEffect(() => {
-  //   if (carouselList.length > 1) {
-  //     const t = setInterval(
-  //       () => setIndex([(index + 1) % carouselList.length, 1]),
-  //       7000
-  //     );
-  //     return () => clearTimeout(t);
-  //   }
-  // }, [index]);
+
+  useEffect(() => {
+    if (carouselList.length > 1) {
+      const t = setInterval(
+        () => setIndex([(index + 1) % carouselList.length, 1]),
+        7000
+      );
+      return () => clearTimeout(t);
+    }
+  }, [index ,carouselList]);
 
   return (
     <div className="font-container" id="home">

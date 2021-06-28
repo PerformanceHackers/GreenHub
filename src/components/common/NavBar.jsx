@@ -11,7 +11,7 @@ function NavBar({toggle}) {
       <div className="nav-container">
         <div className="nav-logo">
           <Link className="link" to="/">
-            <img className="nav-logo-image" src={logo} />
+            <img className="nav-logo-image" src={logo} alt="logo" />
           </Link>
         </div>
         <div className="mobile-icon" onClick={toggle}>

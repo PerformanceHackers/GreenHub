@@ -16,7 +16,7 @@ export default function Footer() {
           </svg>
         </div>
         <div className="contact-box__info">
-          <a href="#" className="contact-box__info--title">+91 9550498423</a>
+          <a href="/" className="contact-box__info--title">+91 9550498423</a>
           <p className="contact-box__info--subtitle">  Mon-Sat 9am-6pm</p>
         </div>
       </div>  
@@ -32,7 +32,7 @@ export default function Footer() {
           </svg>
         </div>
         <div className="contact-box__info">
-          <a href="#" className="contact-box__info--title">info@company.com</a>
+          <a href="/" className="contact-box__info--title">info@company.com</a>
           <p className="contact-box__info--subtitle">Online support</p>
         </div>
       </div>
@@ -49,7 +49,7 @@ export default function Footer() {
           </svg>
         </div>
         <div className="contact-box__info">
-          <a href="#" className="contact-box__info--title">Bangalore</a>
+          <a href="/" className="contact-box__info--title">Bangalore</a>
           <p className="contact-box__info--subtitle">Jaynagara 4th Block</p>
         </div>
       </div>
@@ -64,11 +64,11 @@ export default function Footer() {
           connect with us on social media
         </div>
         <div className="col-lg-7 col-md-6">
-          <a href="#"><i className="fa fa-facebook"></i></a>
-          <a href="#"><i className="fa fa-twitter"></i></a>
-          <a href="#"><i className="fa fa-github"></i></a>
-          <a href="#"><i className="fa fa-linkedin"></i></a>
-          <a href="#"><i className="fa fa-instagram"></i></a>
+          <a href="/"><i className="fa fa-facebook"></i></a>
+          <a href="/"><i className="fa fa-twitter"></i></a>
+          <a href="/"><i className="fa fa-github"></i></a>
+          <a href="/"><i className="fa fa-linkedin"></i></a>
+          <a href="/"><i className="fa fa-instagram"></i></a>
         </div>
       </div>
     </div>
@@ -88,30 +88,30 @@ export default function Footer() {
         <h5 className="text-capitalize fw-bold">Products</h5>
         <hr className="bg-white d-inline-block mb-4" style={{width: "60px", height: "2px"}}/>
         <ul className="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="/">Lorem ipsum</a></li>
+          <li><a href="/">Lorem ipsum</a></li>
+          <li><a href="/">Lorem ipsum</a></li>
+          <li><a href="/">Lorem ipsum</a></li>
         </ul>
       </div> */}
       {/* <div className="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
         <h5 className="text-capitalize fw-bold">useful links</h5>
         <hr className="bg-white d-inline-block mb-4" style={{width: "60px", height: "2px"}}/>
         <ul className="list-inline campany-list">
-          <li><a href="#"> Your Account</a></li>
-          <li><a href="#">Become an Affiliate</a></li>
-          <li><a href="#">create an account</a></li>
-          <li><a href="#">Help</a></li>
+          <li><a href="/"> Your Account</a></li>
+          <li><a href="/">Become an Affiliate</a></li>
+          <li><a href="/">create an account</a></li>
+          <li><a href="/">Help</a></li>
         </ul>
       </div> */}
       <div className="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
         <h5 className="text-capitalize fw-bold">contact</h5>
         <hr className="bg-white d-inline-block mb-4" style={{width: "60px", height: "2px"}}/>
         <ul className="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="/">Lorem ipsum</a></li>
+          <li><a href="/">Lorem ipsum</a></li>
+          <li><a href="/">Lorem ipsum</a></li>
+          <li><a href="/">Lorem ipsum</a></li>
         </ul>
       </div>
     </div>
@@ -123,7 +123,7 @@ export default function Footer() {
       <div className="row text-center text-white">
         <div className="col-12">
           <div className="footer-bottom__copyright">
-          &#169; Copyright 2021 <a href="#">GreenHub Interiors</a> | Created by <a href="http://charan.cf" target="_blank">Charan H S</a>
+          &#169; Copyright 2021 <a href="/">GreenHub Interiors</a> | Created by <a rel="noreferrer" href="http://charan.cf" target="_blank">Charan H S</a>
           </div>
         </div>
       </div>
