@@ -35,8 +35,8 @@ function Testimonials() {
               </p>
             </div>
          
-            <div className="testimonials__">
-              <img src={require("../../assets/images/testimonials/client-1.jpg").default} alt="client-1 " className="rounded-circle img-fluid" />
+            <div className="testimonials__picture">
+              <img src={require("../../assets/images/testimonials/client-1.jpg").default} alt="client-1" className="rounded-circle img-fluid" />
             </div>
        
             <div className="testimonials__name">
@@ -63,8 +63,8 @@ function Testimonials() {
               </p>
             </div>
         
-            <div className="testimonials__">
-              <img src={require("../../assets/images/testimonials/client-2.jpg").default} alt="client-2 " className="rounded-circle img-fluid" />
+            <div className="testimonials__picture">
+              <img src={require("../../assets/images/testimonials/client-2.jpg").default} alt="client-2" className="rounded-circle img-fluid" />
             </div>
          
             <div className="testimonials__name">
@@ -91,8 +91,8 @@ function Testimonials() {
               </p>
             </div>
     
-            <div className="testimonials__">
-              <img src={require("../../assets/images/testimonials/client-3.jpg").default} alt="client-3 " className="rounded-circle img-fluid" />
+            <div className="testimonials__picture">
+              <img src={require("../../assets/images/testimonials/client-3.jpg").default} alt="client-3" className="rounded-circle img-fluid" />
             </div>
         
             <div className="testimonials__name">
@@ -119,8 +119,8 @@ function Testimonials() {
               </p>
             </div>
        
-            <div className="testimonials__">
-              <img src={require("../../assets/images/testimonials/client-4.jpg").default} alt="client-4 " className="rounded-circle img-fluid" />
+            <div className="testimonials__picture">
+              <img src={require("../../assets/images/testimonials/client-4.jpg").default} alt="client-4" className="rounded-circle img-fluid" />
             </div>
            
             <div className="testimonials__name">
