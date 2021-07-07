@@ -6,6 +6,7 @@ import {BrowserRouter} from 'react-router-dom'
 import Home from './components/Home/Home';
 
 function App() {
+  document.title = "Green Hub Interior"
   
   return (
     <div >
