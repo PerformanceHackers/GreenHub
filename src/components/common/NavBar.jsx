@@ -119,7 +119,7 @@ function NavBar({toggle}) {
         </ul>
       <div className="nav-button-container">
       <button className="btn btn-nav-phone">
-       +91&nbsp;9550498423 <span><i class="fa fa-phone"></i></span>
+       +91&nbsp;1234567890 <span><i class="fa fa-phone"></i></span>
       </button>
       </div>
       </div>
