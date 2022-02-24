@@ -41,15 +41,15 @@ function FrontSection() {
     keys: index,
     from: {
       opacity: 0,
-      transform: `translateY(${dir === 1 ? 100 : -100}%) scale(0.5)`,
+      transform: `translateX(${dir === 1 ? -10 : 10}%) scale(0.7)`,
     },
     enter: {
       opacity: 1,
-      transform: "translateY(0%) scale(1)",
+      transform: "translateX(0%) scale(1)",
     },
     leave: {
       opacity: 0,
-      transform: `translateY(${dir === 1 ? -100 : 100}%) scale(0.5)`,
+      transform: `translateX(${dir === 1 ? 20 : -20}%) scale(0)`,
     },
     config: {
       duration: 800,
@@ -150,13 +150,13 @@ setCarouselList([...carouselListI])
 
      <div className="left-button-container" onClick={() => onClick(-1)} >
      <span className="button-span"><i className="fa fa-arrow-circle-left"></i></span>
-     <span class="border-animation-arow border-animation-arow--border-1"></span>
-            <span class="border-animation-arow border-animation-arow--border-2"></span>
+     <span className="border-animation-arow border-animation-arow--border-1"></span>
+            <span className="border-animation-arow border-animation-arow--border-2"></span>
      </div>
      <div className="right-button-container" onClick={() => onClick(1)}>
      <span className="button-span"><i className="fa fa-arrow-circle-right"></i></span>
-     <span class="border-animation-arow border-animation-arow--border-1"></span>
-            <span class="border-animation-arow border-animation-arow--border-2"></span>
+     <span className="border-animation-arow border-animation-arow--border-1"></span>
+            <span className="border-animation-arow border-animation-arow--border-2"></span>
      </div>
  
 

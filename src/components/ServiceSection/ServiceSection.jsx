@@ -22,9 +22,12 @@ function ServiceSection() {
             <div className="col-md-6">
               <div className="bg-white p-4 text-start">
                 <p className="fw-light">
-                  Lorem ipsum dolor sit amet consectetur architecto magni, dicta
-                  maxime laborum temporibus dolorem esse doloremque illo quas
-                  nisi enim molestias. Tempore ducimus molestiae in dolore enim.
+                  We believe in making our designs aesthetic and fully
+                  utilitarian. With in-house production unit, automated and
+                  innovative technological advancements and a customer focused
+                  outlook, GREENHUB Interior Designers in Bangalore are fully
+                  equipped to serve our clients to fulfill their dreams and
+                  aspirations.
                 </p>
               </div>
             </div>
@@ -40,8 +43,7 @@ function ServiceSection() {
                 <p className="lh-lg">
                   Design is our passion! Our team of Top Interior Designers work
                   with you to realize the home of your dreams. We work with
-                  different styles - Classical, Fusion, Modern, Industrial - to
-                  deliver a home you can be proud of.
+                  different styles - Classical, Fusion, Modern, Industrial.
                 </p>
                 {/* <button
                   type="button"
@@ -69,10 +71,7 @@ function ServiceSection() {
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
               <div className="services__pic">
                 <img
-                  src={
-                    require("../../assets/images/svg/6.svg")
-                      .default
-                  }
+                  src={require("../../assets/images/svg/6.svg").default}
                   alt="web development illustration"
                   className="img-fluid"
                 />
@@ -83,9 +82,10 @@ function ServiceSection() {
                 {/* <div className="icon d-block fa fa-code"></div> */}
                 <h3 className="display-3--title mt-1">EXECUTION</h3>
                 <p className="lh-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-                  impedit rem, doloremque autem quibusdam blanditiis harum alias
-                  hic accusantium maxime atque ratione magni repellat?
+                  We build and execute home interiors to perfection. From
+                  fabulous false ceilings, glamorous kitchens, stunning
+                  wardrobes to luxurious sofas. Our team of craftsmen and
+                  supervisors transform dreams into reality.
                 </p>
                 {/* <button
                   type="button"
@@ -106,9 +106,11 @@ function ServiceSection() {
                 <div className="icon d-block fa fa-cloud-upload-alt"></div>
                 <h3 className="display-3--title mt-1">QUALITY</h3>
                 <p className="lh-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-                  impedit rem, doloremque autem quibusdam blanditiis harum alias
-                  hic accusantium maxime atque ratione magni repellat?
+                  We take quality seriously, so seriously that we only use the
+                  finest materials and finishes in all our interior projects.
+                  The name Carafina stands for Quality & Perfection.Our talented
+                  team of Project Managers and Site Supervisors ensure that your
+                  Home Interiors are a hassle free and pleasant experience.
                 </p>
                 {/* <button
                   type="button"
@@ -124,10 +126,7 @@ function ServiceSection() {
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
               <div className="services__pic">
                 <img
-                  src={
-                    require("../../assets/images/svg/1.svg")
-                      .default
-                  }
+                  src={require("../../assets/images/svg/1.svg").default}
                   alt="cloud hosting illustration"
                   className="img-fluid"
                 />

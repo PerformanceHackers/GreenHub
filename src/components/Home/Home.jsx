@@ -24,8 +24,8 @@ function Home() {
       <Contact />
       <Footer />
 
-      <a href="/" class="shadow btn-primary rounded-circle back-to-top">
-  <i class="fa fa-chevron-up"></i>
+      <a href="/" className="shadow btn-primary rounded-circle back-to-top">
+  <i className="fa fa-chevron-up"></i>
 </a>
     </>
   );

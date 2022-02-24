@@ -8,7 +8,7 @@ function Contact() {
       <h1 className="display-3 fw-bold text-capitalize">Get started</h1>
       <div className="heading-line"></div>
       <p className="lh-lg">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
+      COVID-19 Updates: Here's how we are ensuring a hassle-free home interior experience for you.
       </p>
     </div>
 
@@ -17,7 +17,8 @@ function Contact() {
         <div className="cta-info w-100">
           <h4 className="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
           <p className="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
+          Green Hub Interiors has many years of experience in commercial and
+              residential projects design and execution.
           </p>
           <h3 className="display-3--brief">What will be the next step?</h3>
           <ul className="cta-info__list">
